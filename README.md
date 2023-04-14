@@ -2,13 +2,18 @@
 
 ## TextButton
 
-This project is a starting point for a Flutter application.
+```dart
+TextButton(
+  onPressed: () {},
+  style: TextButton.styleFrom(
+    elevation: 5,
+    backgroundColor: Colors.red,
+    fixedSize: const Size(50, 50),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+  ),
+  child: const Text('Button',
+  style: TextStyle(color: Colors.black)
+),
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/82621923/232074162-fccf5da0-6a11-417e-8f82-6e69b76ecb55.png)
